@@ -1,0 +1,42 @@
+[0m20:55:11.021497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb315494160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb315637c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb315635f90>]}
+
+
+============================== 20:55:11.025013 | 738d5e25-0bfb-4b45-935c-1309b43e326e ==============================
+[0m20:55:11.025013 [info ] [MainThread]: Running with dbt=1.8.7
+[0m20:55:11.025953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/semre/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:55:11.036051 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/semre/.dbt')}
+[0m20:55:11.037151 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:59:30.979097 [info ] [MainThread]: A project called my_project already exists here.
+[0m20:59:30.989677 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 260.03183, "process_user_time": 1.63778, "process_kernel_time": 0.079085, "process_mem_max_rss": "86048", "process_in_blocks": "72", "process_out_blocks": "16"}
+[0m20:59:30.997976 [debug] [MainThread]: Command `dbt init` succeeded at 20:59:30.996572 after 260.04 seconds
+[0m20:59:31.004033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb315494160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb31569c8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cb3156366b0>]}
+[0m20:59:31.009401 [debug] [MainThread]: Flushing usage events
+[0m20:59:49.482028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af814a64190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af814d3b970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af814d3b910>]}
+
+
+============================== 20:59:49.487397 | 48392db0-9273-4bb3-9c52-0c80c916c1ff ==============================
+[0m20:59:49.487397 [info ] [MainThread]: Running with dbt=1.8.7
+[0m20:59:49.488986 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/semre/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:59:56.983150 [debug] [MainThread]: Starter project path: /home/semre/Ethio_Medical_Business_Data_Warehouse/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m20:59:57.005459 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:59:57.009348 [info ] [MainThread]: Setting up your profile.
+[0m21:03:58.381467 [info ] [MainThread]: Profile my_project written to /home/semre/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:03:58.392165 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 249.02446, "process_user_time": 2.678218, "process_kernel_time": 0.149948, "process_mem_max_rss": "90204", "process_out_blocks": "80", "process_in_blocks": "0"}
+[0m21:03:58.399671 [debug] [MainThread]: Command `dbt init` succeeded at 21:03:58.398953 after 249.03 seconds
+[0m21:03:58.402845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af814a64190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af813190f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7af814da3580>]}
+[0m21:03:58.405387 [debug] [MainThread]: Flushing usage events
